@@ -48,16 +48,16 @@ def printowanie_macierzy(macierz):
 
 if __name__ == '__main__':
     size = randint(3, 5)
-    macierz = [[randint(0, 9) for _ in range(size)]for _ in range(size)]
-    macierz_2 =[[1,-1,2,4],
+    macierz_1 = [[randint(0, 9) for _ in range(size)]for _ in range(size)]
+    macierz =[[1,-1,2,4],
               [0,1,0,3],
               [5,7,-2,0],
               [2,0,-1,4]]
 
-    macierz_1 = [[3, 4, 5, 1],
-               [2, 1, 3, 4],
-               [1, 0, 1, 3],
-               [2, 1, 1, 1]]
+    macierz_2 = [[1, 2, 3, 4],
+               [5, 6, 7, 8],
+               [9, 10, 11, 12],
+               [13, 14, 15, 16]]
 
     # printowanie_macierzy(macierz)
     #

@@ -11,3 +11,4 @@ def mozliwe_sumy(n, i, curr_sum=""):
 if __name__ == '__main__':
     num = int(input("Podaj liczbę: "))
     mozliwe_sumy(num, num-1)
+

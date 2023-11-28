@@ -12,4 +12,4 @@ def odwazniki(T, m, i=0):
 
 if __name__ == '__main__':
     T = [2, 5, 10, 6, 3, 8]
-    print(odwazniki(T, 4))
+    print(odwazniki(T, 8))
